@@ -26,17 +26,20 @@ h1 {
 
 .container {
     position: relative;
+ 
   }
   
   .center {
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 10%;
+    left: 15%;
+    right: 15%;
     /* transform: translate(-50%, -50%); */
     font-size: 18px;
     color: aliceblue;
     font-size: small;
     image-orientation: inherit;
+
   }
 
   /* img { 
