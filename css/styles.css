@@ -1,0 +1,20 @@
+
+
+.bg-img1{
+   background-image:url("../images/backgrounds/h_img.jpg");
+    min-height: 350px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
