@@ -15,11 +15,12 @@
       <h1> <BR> </h1>
       <div class="container">
         <img src="images/backgrounds/h_img.jpg" alt="Cinque Terre"width="1400" height="600">
-       <div class="center"><br> <img src="images/logo/logo.png" alt="Cinque Terre"width="75" height="75">
-          <h1>WELCOME <br>TO DELANI STUDIO</h1><p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p></div>
+        <div class="center"><p> <img src="images/logo/logo.png" alt="Cinque Terre"width="60" height="60"></p>
+        <h1>WELCOME <br> <br>TO DELANI STUDIO</h1><p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p><br>
+        <div class="below"><br><br><br><br><br><br><br><br><br><br><br><br><br><p><img src="images/mouse_click.png" alt="Cinque Terre"width="20" height="30"></p>
+        </div>
       </div>
-      
-
+      </div><br>
       <h1>ABOUT US</h1>
       <p>
         When you work with us, you are part of a team of committed collaborators. All aspects of our software developement process are integrated, interactive <br> and agile.<br> 
@@ -34,32 +35,38 @@
       </div>
     </div>
 
-     <!-- <div class="container"> -->
-      <h1>WHAT WE DO<br> </h1>
+      <br><h1>WHAT WE DO<br> <br></h1>
       <div class="row">
-        <div class="col-md-4"> 
-          
-          <h3><img src="images/services_icons/design_icon.png"></h3>
+        <div class="col-md-4" id="design"> 
+          <div class="firstClick">
+          <h3><img id="design" src="images/services_icons/design_icon.png" alt="design"></h3>
+            </div>
             <h2>DESIGN</h2>
+        <p class="hide" id="design-show">
+          Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
-     
-         <div class="col-md-4">
-            
-            <h4><img src="images/services_icons/dev_icon.png"></h4>
-               <h2>DEVELOPEMENT</h2>
-        </div>
-    
-        <div class="col-md-4">
-          
-          <h5><img src="images/services_icons/product_icon.png"></h5>
-              <h2>PRODUCT MANAMENT</h2>
-        </div>
-      </div>
-    
 
-      <h1>PORTFOLIO</h1>
-    <p><div class="container">
-     <div class="row">
+        <div class="col-md-4" id="dev">
+          <div class="secondClick">
+           <h4><img id="dev" src="images/services_icons/dev_icon.png"></h4> 
+          </div>
+              <h2>DEVELOPEMENT</h2>
+          <p class="hide" id="dev-show">
+            All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+         </div>   
+
+        <div class="col-md-4" id="prod">
+          <div class="thirdClick">
+          <h5><img id="prod" src="images/services_icons/product_icon.png"></h5>   
+        </div>
+        <h2>PRODUCT MANAMENT</h2>
+        <p class="hide" id="prod-show">
+          Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+      </div>
+
+      <h1>PORTFOLIO</h1><br>
+    <div class="container portfolio" id="portfolio">
+      <div class="row">
         <div class="col-md-3">
           <img src="images/portfolio/work4.jpg"alt="Cinque Terre"width="300" height="300">
           <ul class="unstyled">
@@ -107,12 +114,11 @@
       </div>
     </div>
   </div>
-</p>
+
       <div class="container">
-            <img src="images/backgrounds/c_image.jpg" alt="Cinque Terre"width="1400" height="500">
+            <img src="images/backgrounds/c_image.jpg" alt="Cinque Terre"width="1450" height="550">
             <div class="center">
               <h1><strong>CONTACT US</strong></h1>
-    
       <div class="container">
         <div id="blanks">
 
@@ -120,11 +126,13 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input id="name" class="form-control" type="text" length="500"placeholder="Name..." name="name">
+                  <label for="name">Name</label>
+                  <input id="name" class="form-control" type="text" length="500"placeholder="Name..." name="name" required>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
+                  <label for="email">Email</label>
                   <input id="email" class="form-control" type="text" length="550"placeholder="Email..." name="email">
                 </div>
               </div>
@@ -132,74 +140,71 @@
            <div class="row">
               <div class="col-md-6">
                 <div class="form-group"><br>           
-                  <input type="number" class="form-control" id="id" placeholder="National/PassPort ID" name="id">
+                  <input type="number" class="form-control" id="id" placeholder="National/PassPort ID" name="id"required>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="dob"><strong>DoB</strong></label>
-                  <input id="dob" class="form-control" type="date" value="2000 01 01">
+                  <input id="dob" class="form-control" type="date" value="2000 01 01" required>
                 </div>
               </div>
             </div><br>
             <div class="row">
               <div class="col-md-4">
                 <div class="radio">
-                  <label for="drink"><strong> Select a Soft Drink</strong></label>
+                  <label for="gender"><strong> Gender</strong></label>
                   <br/>
                   <label>
-                    <input type="radio" name="flavour" value="Coca-Cola">Coca-Cola</label>
+                    <input type="radio" name="gender" value="male">Male</label>
                 </div>
               </div>
              
               <div class="radio">
                 <label>
-                  <input type="radio" name="flavour" value="Sprite">
-                  Sprite
+                  <input type="radio" name="gender" value="female">Female
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="flavour" value="Fanta">Fanta
+                  <input type="radio" name="gender" value="other">Other
                 </label>
               </div>
-        
               <div class="col-md-3">
                 <div class="checkbox">
-                  <label for="chocolate"><strong> Pick a Chocolate</strong> </label>
+                  <br> <label for="chocolate"><strong> Prefered contact</strong> </label>
                   <br/>
                   <label>
-                      <input type="checkbox" name="chocolate"  id="cream">Cream
-                      <input type="checkbox" name="chocolate" id="milk">
-                      Milk
+                      <input type="checkbox" name="contact"  id="contact">Work
+                      <input type="checkbox" name="contact" id="contact">
+                     Home
                   </label>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                  <label for="beverage"><strong> Select a Beverage</strong> </label>
-                  <select class="form-control" id="beverage">
-                    <option>Coffee</option>
-                    <option>Tea</option>
-                    <option>chocolate</option>
+                  <label for="beverage"><strong> Marital status</strong> </label>
+                  <select class="form-control" id="maritalStatus">
+                    <option>Married</option>
+                    <option>Single</option>
+                    <option>Divorced </option>
                   </select>
                 </div>
               </div>
             </div>
-         
+      </div>   
     <br><div class="row">
       <div class="col-md-12">
         <div class="form-group"> 
-          <input id="name" class="form-control" type="text" length="50000000" placeholder="Your message here....." name="message"style="height:80px"></textarea>
+          <label for="message">A name</label>
+          <input id="message" class="form-control" type="text" length="50000000" placeholder="Your message here....." name="message"style="height:60px"required>
         </div>
       </div>
     </div>
-    <h6><button type="submit" class="btn"><strong>SUBMIT</strong></button></h6>
-  </form>
-   </div> 
-  </div>
-</div>
 
+  <h6><br><button type="submit" class="btn"><strong>SUBMIT</strong></button></h6>
+  </div> 
+  </div>
        <div class="container"><P><br>
           <img src="images/social_icons/behance.png">
           <img src="images/social_icons/dribble.png">
@@ -211,10 +216,14 @@
           <img src="images/social_icons/stumble_upon.png">
           <img src="images/social_icons/twitter.png"></P>
         </div>  
+      </form>
+      </div>
+      <div id="onSubmit">
+        <p>Hello <strong><span class="name"></span> </strong> for reaching out to us. Your message "<em><span class="message"></span>"</em> is well received and appreciated. We shall be contacting you through your email '<span class="email"></span>' for further engagements.</p>
+      </div>
         <p>DELANI STUDIO <BR>2019</P>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
-   
-    </div>
+
   </body>
 </html>

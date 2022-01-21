@@ -1,14 +1,79 @@
-jQuery('h3').click(function(){
-  alert("Here we do design, thank you") 
-});
-jQuery('h4').click(function(){
-  alert("Here we do development, thank you") 
-});
 
-jQuery('h5').click(function(){
-  alert("Here we do product management, thank you") 
-});
-//styling the button with pop up alerts
-jQuery('h6').click(function(){
-  alert(" Hello!!.. Thank you for reaching out to us. We have received your message and we shall be contacting you through your email ") 
+$(document).ready(function() {
+  $("#design").click(function(){
+    $(".firstClick").toggle();
+    $("#design-show").toggle();
+    $("#design-show").css("textAlign","center");
+    $("p,h2")
+    .on("mouseenter",function() {
+      $(this).css({
+        "font-weight":"bolder"
+      });
+    })
+    .on("mouseleave", function(){
+      var styles={
+        fontWeight:"normal"
+      }
+    })
+  })
+})
+
+
+$(document).ready(function() {
+  $("#dev").click(function(){
+    $(".secondClick").toggle();
+    $("#dev-show").toggle();
+    $("#dev-show").css("textAlign","center");
+    $("p,h2")
+    .on("mouseenter",function() {
+      $(this).css({
+        "font-weight":"bolder"
+      });
+    })
+    .on("mouseleave", function(){
+      var styles={
+        fontWeight:"normal"
+      }
+    })
+  })
+})
+
+
+$(document).ready(function() {
+  $("#prod").click(function(){
+    $(".thirdClick").toggle();
+    $("#prod-show").toggle();
+    $("#prod-show").css("textAlign","center");
+    $("p,h2")
+    .on("mouseenter",function() {
+      $(this).css({
+        "font-weight":"bolder"
+      });
+    })
+    .on("mouseleave", function(){
+      var styles={
+        fontWeight:"normal"
+      }
+    })
+  })
+})
+
+
+$(document).ready(function() {
+  $("#blanks").submit(function(event) {
+
+      var nameInput = $("input#name").val();
+      var emailInput = $("input#email").val();
+      var messageInput = $("input#message").val();
+
+      
+      $(".name").text(nameInput);
+      $(".email").text(emailInput);
+      $(".message").text(messageInput);
+
+
+      $("#onSubmit").show();
+
+      event.preventDefault();
+  });
 });
