@@ -60,7 +60,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  $("#blanks").submit(function(event) {
+  $("#blanks").submit(function(run) {
 
       var nameInput = $("input#name").val();
       var emailInput = $("input#email").val();
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
       $("#onSubmit").show();
 
-      event.preventDefault();
+      run.preventDefault();
   });
 });
 
