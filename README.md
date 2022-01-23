@@ -4,7 +4,7 @@
 ## Description
  Creating a landing page for a fictional studio to demonstrate everything i have learnt from Bootstrap, CSS and jQuery.
 ## Setup/Installation Requirements
-This is purely for learning purposes and can be accessed at https://sakwamatsotso.github.io/DelaniStudio/. Feel free to outline and share any area that you may want me to improve on.
+This is purely for learning purposes and can be accessed at https://sakwamatsotso.github.io/DelaniStudio/. Please feel free to outline and share any area that you may want me to improve on.
 ## Known Bugs
 Work in progress, no known bugs as of now.
 ## Technologies Used
