@@ -13,4 +13,4 @@ HTML, CSS, JavaScript, jQuerry, Git and GitHub.
 For any comments, suggestions or questions, you may contact me at sakwamatsotso@gmail.com
 ### License
 MIT License
-Copyright (c) {2021} Moringa school
+Copyright (c) 2022, Moringa school
