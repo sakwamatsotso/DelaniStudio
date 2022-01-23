@@ -2,7 +2,7 @@
 #### The user is able to generate a name (Akan Name) based on the Date of Birth, Dec.2022 - V1
 #### By **Martin Sakwa**
 ## Description
-The web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+ A landing page for a fictional studio to demonstrate everything i have learnt from Bootstrap, CSS and jQuery.
 ## Setup/Installation Requirements
 This is purely for learning purposes and can be accessed at https://sakwamatsotso.github.io/Akan-Names/. Feel free to outline and share any issues that would impact use of this application.
 ## Known Bugs
