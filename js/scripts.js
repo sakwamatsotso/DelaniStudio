@@ -79,7 +79,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-$("Id4").mouseover(function(){
+$("#image1").mouseover(function(){
   $(".overlay4").show({opacity: '1'});
   
 }).mouseout(function(){
